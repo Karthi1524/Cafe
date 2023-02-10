@@ -19,7 +19,7 @@ color:violet;
     width: 120px;
     display: inline-block;
     font-weight: bold;
-    color:white;
+    color:black;
   }
   
   input[type="text"], input[type="email"], textarea {
@@ -33,7 +33,7 @@ color:violet;
   input[type="submit"] {
     padding: 10px 20px;
     background-color: #4CAF50;
-    color: white;
+    color: black;
     border: none;
     border-radius: 5px;
     cursor: pointer;
