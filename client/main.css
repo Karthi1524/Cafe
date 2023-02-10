@@ -16,6 +16,7 @@
     width: 120px;
     display: inline-block;
     font-weight: bold;
+    color:white;
   }
   
   input[type="text"], input[type="email"], textarea {
