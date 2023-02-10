@@ -1,8 +1,9 @@
-/* LET THE STYLING BEGIN */body {
+/* LET THE STYLING BEGIN */body
+{
     font-family: Arial, sans-serif;
     text-align: center;
-    background-color: wheat;
-    background-image:url("https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.shutterstock.com%2Fsearch%2Fcafe&psig=AOvVaw3XPaiFbY3cE_zLQlZdmbae&ust=1676102734302000&source=images&cd=vfe&ved=0CA8QjRxqFwoTCPCV0LG_iv0CFQAAAAAdAAAAABAE");
+    /*background-color: wheat;*/
+    background-image:url("https://images.unsplash.com/photo-1559925393-8be0ec4767c8?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OHx8Y2FmZXxlbnwwfHwwfHw%3D&w=1000&q=80");
   }
   
   #feedback-form {
