@@ -1,0 +1,9 @@
+{
+	"name": "zoho_function",
+	"version": "1.0.0",
+	"main": "index.js",
+	"author": "rkmkirthi@gmail.com",
+	"dependencies": {
+		"zcatalyst-sdk-node": "latest"
+	}
+}

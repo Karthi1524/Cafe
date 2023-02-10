@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>monkey</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <script src="main.js"></script>
+</head>
+<body>
+    <h1>Sahara Cafe Feedback</h1>
+    <div class="cafe">
+    <form id="feedback-form">
+      <label for="name">Name:</label>
+      <input type="text" id="name" required>
+      <br><br>
+      <label for="email">Email:</label>
+      <input type="email" id="email" required>
+      <br><br>
+      <label for="rating">Rating:</label>
+      <select id="rating" required>
+        <option value="" disabled selected>Select a rating</option>
+        <option value="1">1 (Poor)</option>
+        <option value="2">2</option>
+        <option value="3">3 (Average)</option>
+        <option value="4">4</option>
+        <option value="5">5 (Excellent)</option>
+      </select>
+      <br><br>
+      <label for="comments">Comments:</label>
+      <textarea id="comments" rows="2" cols="50"></textarea>
+      <br><br>
+      <input type="submit" value="Submit Feedback">
+    </form>
+    <div id="response"></div>
+    </div>
+  </body>
+</html>

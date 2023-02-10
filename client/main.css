@@ -1,0 +1,35 @@
+/* LET THE STYLING BEGIN */body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: wheat;
+    background-image:url("C:\Users\HP\Downloads\ks.jpg");
+  }
+  
+  #feedback-form {
+    width: 500px;
+    margin: 0 auto;
+    text-align: left;
+  }
+  
+  label {
+    width: 120px;
+    display: inline-block;
+    font-weight: bold;
+  }
+  
+  input[type="text"], input[type="email"], textarea {
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 60%;
+  }
+  
+  input[type="submit"] {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }

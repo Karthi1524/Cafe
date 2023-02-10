@@ -1,0 +1,31 @@
+[debug] [2023-02-10T06:31:52.744Z] : 
+[debug] [2023-02-10T06:31:52.745Z] : ----------------------------------------------------------------------
+[debug] [2023-02-10T06:31:52.746Z] : Command:      C:\Program Files\nodejs\node.exe C:\Users\HP\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\bin\catalyst.js serve
+[debug] [2023-02-10T06:31:52.746Z] : CLI Version:  1.13.3
+[debug] [2023-02-10T06:31:52.747Z] : Platform:     win32
+[debug] [2023-02-10T06:31:52.747Z] : Node Version: v18.14.0
+[debug] [2023-02-10T06:31:52.753Z] : Time:         Fri Feb 10 2023 12:01:52 GMT+0530 (India Standard Time)
+[debug] [2023-02-10T06:31:52.753Z] : ----------------------------------------------------------------------
+[debug] [2023-02-10T06:31:52.753Z] : 
+[debug] [2023-02-10T06:31:53.461Z] : > authorizing via signed-in user option
+[debug] [2023-02-10T06:31:53.461Z] : > command requires scopes: ["ZohoCatalyst.projects.ALL","ZohoCatalyst.functions.ALL","ZohoCatalyst.functions.EXECUTE","ZohoCatalyst.webapp.ALL"]
+[debug] [2023-02-10T06:31:53.472Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.in/baas/v1/project/2667000000002354 
+
+[debug] [2023-02-10T06:31:53.873Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Fri, 10 Feb 2023 06:31:55 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"close","set-cookie":["3a750b85f1=7c58023b2365c117e2ff9b6feb09efa2; Path=/","ZD_CSRF_TOKEN=cfe9e6da-4f0c-4aaa-bdaa-4e115c9f2b15;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=cfe9e6da-4f0c-4aaa-bdaa-4e115c9f2b15;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","pragma":"no-cache","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[debug] [2023-02-10T06:31:53.880Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.in/baas/v1/project/2667000000002354/environment 
+
+[debug] [2023-02-10T06:31:53.979Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Fri, 10 Feb 2023 06:31:55 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"close","set-cookie":["3a750b85f1=7c58023b2365c117e2ff9b6feb09efa2; Path=/","ZD_CSRF_TOKEN=c7f76eec-347d-472f-a3c4-c8a5b063d1b4;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=c7f76eec-347d-472f-a3c4-c8a5b063d1b4;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","pragma":"no-cache","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[debug] [2023-02-10T06:31:54.162Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.in/baas/v1/project/2667000000002354/function 
+Query params: {"type":"basicio,event,cron,applogic,integration"}
+
+[debug] [2023-02-10T06:31:54.300Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Fri, 10 Feb 2023 06:31:55 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"close","set-cookie":["3a750b85f1=99131cfabfda186b4fe68a16fb8fedd6; Path=/","ZD_CSRF_TOKEN=459859d5-0800-4c41-8399-de2a428b728b;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=459859d5-0800-4c41-8399-de2a428b728b;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","pragma":"no-cache","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[debug] [2023-02-10T06:31:54.306Z] : unknown eol undefined hence skipping check
+[info] [2023-02-10T06:31:54.350Z] : i server[zoho_function]: URL : http://localhost:3000/server/zoho_function/
+[info] [2023-02-10T06:31:54.352Z] : 
+[info] [2023-02-10T06:31:54.505Z] : i client[monkey]: URL : http://localhost:3000/app/
